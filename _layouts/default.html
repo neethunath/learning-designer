@@ -3,33 +3,29 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title | default: site.github.repository_name }}</title>
+    <title>learning-designer</title>
     <style>
       body {
-        background-color: #fbfaf7 !important; /* Anthropic warm off-white */
-        color: #191919 !important;           /* Deep charcoal text */
+        background-color: #fbfaf7 !important; /* Anthropic warm cream */
+        color: #191919 !important;           /* Anthropic deep charcoal text */
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        max-width: 800px;
-        margin: 40px auto;
+        max-width: 650px;
+        margin: 60px auto;
         padding: 0 20px;
         line-height: 1.6;
+      }
+      h1, h2, h3 {
+        color: #191919;
+        font-weight: 500;
+        margin-top: 30px;
       }
       a {
         color: #191919;
         text-decoration: underline;
       }
-      a:hover {
-        color: #e05e3e;
-      }
-      h1, h2, h3 {
-        color: #191919;
-        font-weight: 500;
-      }
     </style>
   </head>
   <body>
-    <main>
-      {{ content }}
-    </main>
+    {{ content }}
   </body>
 </html>
