@@ -7,22 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>learning-designer</title>
     <style>
+      :root {
+        --cream-canvas: #f0eee6;
+        --soft-black: #191919;
+        --anthropic-brick: #c96442;
+      }
+
       html, body {
-        background-color: #f4f0e6 !important; /* Rich Anthropic Warm Cream */
-        color: #191919 !important;           /* Deep Charcoal Text */
+        background-color: var(--cream-canvas) !important;
+        color: var(--soft-black) !important;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         max-width: 650px;
         margin: 60px auto;
         padding: 0 20px;
         line-height: 1.6;
       }
+
       h1, h2, h3 {
-        color: #191919;
+        color: var(--soft-black);
         font-weight: 500;
         margin-top: 30px;
       }
+
       a {
-        color: #191919;
+        color: var(--anthropic-brick);
         text-decoration: underline;
       }
     </style>
